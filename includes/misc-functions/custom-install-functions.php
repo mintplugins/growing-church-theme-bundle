@@ -34,20 +34,37 @@ function growing_church_theme_bundle_theme_mods(){
 			
 	return array ( 
 		0 => false, 
-		'mp_core_logo' => 'http://demo.mintplugins.com/growing-church-theme-bundle/wp-content/uploads/sites/10/2015/06/your-vintage-logo-500.png', 
-		'mp_core_logo_width' => '110', 
-		'mp_knapstack_font_family' => 'Open Sans:Light,300 ', 
-		'mp_knapstack_text_color' => '#2b4243', 
-		'mp_knapstack_subtext_color' => '#3d5b5d', 
-		'mp_knapstack_button_submit' => '#2ba8e2', 
-		'mp_knapstack_button_hover' => '#009be2', 
-		'mp_stacks_footer_stack' => '5', 
-		'nav_menu_locations' => array ( 'primary' => 6, ), 
-		'mp_menu_toggle_color' => '#ffffff', 
-		'mp_menu_open_from' => 'mp-menu-right.css', 
-		'mp_menu_bg_color' => '#ffffff', 
-		'mp_menu_text_color' => '#2d2d2d', 
-		'mp_knapstack_page_header_bg_color' => '#3a3a3a' 
+		
+		'mp_core_logo' => 'http://demo.mintplugins.com/growing-church-theme-bundle/wp-content/uploads/sites/10/2015/11/church-logo-here.png', 
+		
+		'mp_core_logo_width' => '100',
+
+		'mp_knapstack_font_family' => 'Open Sans:Light,300 ',
+		
+		'mp_knapstack_text_color' => '#2b4243',
+		
+		'mp_knapstack_subtext_color' => '#3d5b5d',
+		
+		'mp_knapstack_button_submit' => '#2ba8e2',
+		
+		'mp_knapstack_button_hover' => '#009be2',
+		
+		'mp_stacks_footer_stack' => '5',
+		
+		'nav_menu_locations' => array ( 
+			'primary' => 6,
+		),
+		
+		'mp_menu_toggle_color' => '#ffffff',
+		
+		'mp_menu_open_from' => 'mp-menu-right.css',
+		
+		'mp_menu_bg_color' => '#ffffff',
+		
+		'mp_menu_text_color' => '#2d2d2d',
+		
+		'mp_knapstack_page_header_bg_color' => '#3a3a3a',
+		
 	);
 	
 }
