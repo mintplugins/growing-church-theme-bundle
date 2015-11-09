@@ -16,7 +16,7 @@
  /**
  * If required add-ons aren't active, stop and install it now
  */
-if (!function_exists('mp_stacks_eventgrid_textdomain') || !function_exists('mp_stacks_forms_textdomain') || !function_exists('mp_stacks_googlefonts_textdomain') || !function_exists('mp_stacks_googlemaps_textdomain') || !function_exists('mp_stacks_icons_textdomain') || !function_exists('mp_stacks_image_style_textdomain') || !function_exists('mp_stacks_linkgrid_textdomain') || !function_exists('mp_stacks_parallax_textdomain') || !function_exists('mp_stacks_sermongrid_textdomain') || !function_exists('mp_stacks_socialgrid_textdomain') || !function_exists('mp_stacks_sociallinks_textdomain') || !function_exists('mp_stacks_widgets_textdomain')){
+if (!function_exists('mp_stacks_eventgrid_textdomain') || !function_exists('mp_stacks_forms_textdomain') || !function_exists('mp_stacks_googlefonts_textdomain') || !function_exists('mp_stacks_googlemaps_textdomain') || !function_exists('mp_stacks_icons_textdomain') || !function_exists('mp_stacks_image_style_textdomain') || !function_exists('mp_stacks_linkgrid_textdomain') || !function_exists('mp_stacks_mailchimp_textdomain') || !function_exists('mp_stacks_parallax_textdomain') || !function_exists('mp_stacks_sermongrid_textdomain') || !function_exists('mp_stacks_socialgrid_textdomain') || !function_exists('mp_stacks_sociallinks_textdomain') || !function_exists('mp_stacks_widgets_textdomain')){
 					
 	/**
 	 * Check if mp_stacks_eventgrid is installed
@@ -64,6 +64,13 @@ if (!function_exists('mp_stacks_eventgrid_textdomain') || !function_exists('mp_s
 	 * Check if mp_stacks_linkgrid is installed
 	 */
 	require( plugin_dir_path(__FILE__) . 'required-add-ons/mp-stacks-linkgrid-check.php' ); 
+		
+	
+					
+	/**
+	 * Check if mp_stacks_mailchimp is installed
+	 */
+	require( plugin_dir_path(__FILE__) . 'required-add-ons/mp-stacks-mailchimp-check.php' ); 
 		
 	
 					
@@ -170,7 +177,7 @@ else{
       'mp_stack_order' => 1000,
       '_edit_lock' => 
       array (
-        'value' => '1445981978:3',
+        'value' => '1446871106:3',
       ),
       '_edit_last' => 
       array (
@@ -2820,7 +2827,7 @@ else{
       'mp_stack_order' => 1030,
       '_edit_lock' => 
       array (
-        'value' => '1446775969:3',
+        'value' => '1446871095:3',
       ),
       '_edit_last' => 
       array (
@@ -3313,11 +3320,11 @@ else{
     ),
     'brick_5' => 
     array (
-      'brick_title' => 'Have a Question?',
+      'brick_title' => 'Mailinglist Sign up',
       'mp_stack_order' => 1040,
       '_edit_lock' => 
       array (
-        'value' => '1445572465:3',
+        'value' => '1446871299:3',
       ),
       '_edit_last' => 
       array (
@@ -3329,7 +3336,7 @@ else{
       ),
       'brick_second_content_type' => 
       array (
-        'value' => 'forms',
+        'value' => 'mailchimp',
       ),
       'mp_stacks_forms_fields' => 
       array (
@@ -3606,7 +3613,7 @@ else{
             ),
             'brick_text' => 
             array (
-              'value' => '&lt;p&gt;Got Questions?&lt;/p&gt;
+              'value' => '&lt;p&gt;Stay up to date!&lt;/p&gt;
 ',
               'attachment' => false,
             ),
@@ -3620,7 +3627,7 @@ else{
             ),
             'brick_text_font_size' => 
             array (
-              'value' => '20',
+              'value' => '18',
               'attachment' => false,
             ),
             'brick_text_line_height' => 
@@ -3690,7 +3697,7 @@ else{
             ),
             'brick_text' => 
             array (
-              'value' => '&lt;p&gt;Send us a message and we&#039;ll get back to you shortly!&lt;/p&gt;
+              'value' => '&lt;p&gt;Get all the latest about upcoming events, ways to get involved, and more by joining our weekly email list.&lt;/p&gt;
 ',
               'attachment' => false,
             ),
@@ -3708,7 +3715,7 @@ else{
       ),
       'mp_stacks_parallax_on' => 
       array (
-        'value' => 'mp_stacks_parallax_on',
+        'value' => '',
       ),
       'mp_stacks_forms_field_titles_font_color' => 
       array (
@@ -3736,15 +3743,47 @@ else{
       ),
       'brick_max_width_c1' => 
       array (
-        'value' => '400',
+        'value' => '600',
       ),
       'brick_max_width_c2' => 
       array (
-        'value' => '450',
+        'value' => '',
       ),
       'brick_display_type' => 
       array (
         'value' => 'tiled',
+      ),
+      'mailchimp_api_key' => 
+      array (
+        'value' => '',
+      ),
+      'mailchimp_list_id' => 
+      array (
+        'value' => '',
+      ),
+      'mp_stacks_parallax_bg_height_percent' => 
+      array (
+        'value' => '200',
+      ),
+      'brick_alignment' => 
+      array (
+        'value' => 'centered',
+      ),
+      'mailchimp_submit_button_color' => 
+      array (
+        'value' => '#2ba8e2',
+      ),
+      'mailchimp_mouseover_submit_button_color' => 
+      array (
+        'value' => '#009be2',
+      ),
+      'mailchimp_submit_button_text_color' => 
+      array (
+        'value' => '#ffffff',
+      ),
+      'mailchimp_mouseover_submit_button_text_color' => 
+      array (
+        'value' => '#ffffff',
       ),
     ),
     'brick_6' => 
