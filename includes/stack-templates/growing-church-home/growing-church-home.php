@@ -150,7 +150,7 @@ else{
 	 */
 	function mp_stacks_templates_growing_church_home_to_default_stacks( $default_stacks_to_create ){ 
 				
-		$default_stacks_to_create['page']['growing_church_home'] = array( 'title' => 'Home','is_home' => true,'page_template' => 'default', );
+		$default_stacks_to_create['page']['growing_church_home'] = array( 'title' => 'Home','is_home' => true,'page_template' => 'default','add_to_primary_menu' => 'true', );
 		
 		return $default_stacks_to_create;
 	
@@ -177,7 +177,7 @@ else{
       'mp_stack_order' => 1000,
       '_edit_lock' => 
       array (
-        'value' => '1446871106:3',
+        'value' => '1447181283:3',
       ),
       '_edit_last' => 
       array (
@@ -1313,7 +1313,7 @@ else{
       ),
       'brick_bg_image_opacity' => 
       array (
-        'value' => '77',
+        'value' => '78',
       ),
       'mp_stacks_parallax_on' => 
       array (
@@ -3755,11 +3755,11 @@ else{
       ),
       'mailchimp_api_key' => 
       array (
-        'value' => '',
+        'value' => 'fd20969c19f1edfe70bbb976968cb141-us9',
       ),
       'mailchimp_list_id' => 
       array (
-        'value' => '',
+        'value' => 'aeecc80ce5',
       ),
       'mp_stacks_parallax_bg_height_percent' => 
       array (

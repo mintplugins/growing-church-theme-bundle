@@ -186,14 +186,19 @@ function growing_church_theme_bundle_include_files(){
 			require( GROWING_CHURCH_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/growing-church-home/growing-church-home.php' );
 			
 			/**
-			 *  Footer Stack
+			 *  Who We Are
 			 */
-			require( GROWING_CHURCH_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/growing-church-footer/growing-church-footer.php' );
+			require( GROWING_CHURCH_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/growing-church-who-we-are/growing-church-who-we-are.php' );	
 			
 			/**
-			 *  Contact Us Stack
+			 *  Staff Stack
 			 */
-			require( GROWING_CHURCH_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/growing-church-contact-us/growing-church-contact-us.php' );
+			require( GROWING_CHURCH_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/growing-church-staff/growing-church-staff.php' );	
+			
+			/**
+			 *  Sermons Stack
+			 */
+			require( GROWING_CHURCH_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/growing-church-sermons/growing-church-sermons.php' );	
 			
 			/**
 			 *  Events Stack
@@ -201,19 +206,14 @@ function growing_church_theme_bundle_include_files(){
 			require( GROWING_CHURCH_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/growing-church-events/growing-church-events.php' );
 			
 			/**
-			 *  Sermons Stack
+			 *  Contact Us Stack
 			 */
-			require( GROWING_CHURCH_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/growing-church-sermons/growing-church-sermons.php' );
+			require( GROWING_CHURCH_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/growing-church-contact-us/growing-church-contact-us.php' );
 			
 			/**
-			 *  Staff Stack
+			 *  Footer Stack
 			 */
-			require( GROWING_CHURCH_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/growing-church-staff/growing-church-staff.php' );
-			
-			/**
-			 *  Who We Are
-			 */
-			require( GROWING_CHURCH_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/growing-church-who-we-are/growing-church-who-we-are.php' );			
+			require( GROWING_CHURCH_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/growing-church-footer/growing-church-footer.php' );
 						
 		}
 	}
@@ -237,8 +237,13 @@ function growing_church_theme_bundle_dependencies(){
 	//Loop through each textdomain
 	foreach ( $required_text_domain_strings as $text_domain => $plugin_checker_file ){
 		
-		//If this textdomain does not exist
+		//If this function does not exist
 		if ( !function_exists( $text_domain ) ){
+			
+			//If this is not a function but it is a class
+			if ( class_exists( $text_domain ) ){
+				return true;	
+			}
 			
 			//Return false
 			return false;
@@ -261,6 +266,8 @@ function growing_church_theme_bundle_dependencies_array(){
 		'mp_buttons_textdomain' => 'mp-buttons-check.php',
 		'mp_customizer_backups_textdomain' => 'mp-customizer-backups-check.php',
 		'mp_easy_icons_textdomain' => 'mp-easy-icons-check.php',
+		'mp_events_textdomain' => 'mp-events-check.php',
+		'Church_Theme_Content' => 'church-theme-content.php',
 		
 		//Pasted from Stack Template's Utility File:
 		'mp_stacks_eventgrid_textdomain' => 'mp-stacks-eventgrid-check.php',
@@ -270,6 +277,7 @@ function growing_church_theme_bundle_dependencies_array(){
 		'mp_stacks_icons_textdomain' => 'mp-stacks-icons-check.php',
 		'mp_stacks_image_style_textdomain' => 'mp-stacks-image-style-check.php',
 		'mp_stacks_linkgrid_textdomain' => 'mp-stacks-linkgrid-check.php',
+		'mp_stacks_mailchimp_textdomain' => 'mp-stacks-mailchimp-check.php',
 		'mp_stacks_parallax_textdomain' => 'mp-stacks-parallax-check.php',
 		'mp_stacks_sermongrid_textdomain' => 'mp-stacks-sermongrid-check.php',
 		'mp_stacks_socialgrid_textdomain' => 'mp-stacks-socialgrid-check.php',

@@ -16,7 +16,7 @@
  /**
  * If required add-ons aren't active, stop and install it now
  */
-if (!function_exists('mp_stacks_eventgrid_textdomain') || !function_exists('mp_stacks_forms_textdomain') || !function_exists('mp_stacks_googlefonts_textdomain') || !function_exists('mp_stacks_googlemaps_textdomain') || !function_exists('mp_stacks_icons_textdomain') || !function_exists('mp_stacks_image_style_textdomain') || !function_exists('mp_stacks_linkgrid_textdomain') || !function_exists('mp_stacks_parallax_textdomain') || !function_exists('mp_stacks_sermongrid_textdomain') || !function_exists('mp_stacks_socialgrid_textdomain') || !function_exists('mp_stacks_sociallinks_textdomain') || !function_exists('mp_stacks_widgets_textdomain')){
+if (!function_exists('mp_stacks_eventgrid_textdomain') || !function_exists('mp_stacks_forms_textdomain') || !function_exists('mp_stacks_googlefonts_textdomain') || !function_exists('mp_stacks_googlemaps_textdomain') || !function_exists('mp_stacks_icons_textdomain') || !function_exists('mp_stacks_image_style_textdomain') || !function_exists('mp_stacks_linkgrid_textdomain') || !function_exists('mp_stacks_mailchimp_textdomain') || !function_exists('mp_stacks_parallax_textdomain') || !function_exists('mp_stacks_sermongrid_textdomain') || !function_exists('mp_stacks_socialgrid_textdomain') || !function_exists('mp_stacks_sociallinks_textdomain') || !function_exists('mp_stacks_widgets_textdomain')){
 					
 	/**
 	 * Check if mp_stacks_eventgrid is installed
@@ -64,6 +64,13 @@ if (!function_exists('mp_stacks_eventgrid_textdomain') || !function_exists('mp_s
 	 * Check if mp_stacks_linkgrid is installed
 	 */
 	require( plugin_dir_path(__FILE__) . 'required-add-ons/mp-stacks-linkgrid-check.php' ); 
+		
+	
+					
+	/**
+	 * Check if mp_stacks_mailchimp is installed
+	 */
+	require( plugin_dir_path(__FILE__) . 'required-add-ons/mp-stacks-mailchimp-check.php' ); 
 		
 	
 					
@@ -341,7 +348,7 @@ else{
       'mp_stack_order' => 1020,
       '_edit_lock' => 
       array (
-        'value' => '1445188632:3',
+        'value' => '1447175374:3',
       ),
       '_edit_last' => 
       array (
@@ -438,7 +445,7 @@ else{
             ),
             'brick_text' => 
             array (
-              'value' => '&lt;p&gt;&lt;a title=&quot;WordPress Theme Bundle&quot; href=&quot;https://mintplugins.com&quot;&gt;&lt;strong&gt;© Growing Church 2015&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+              'value' => '&lt;p&gt;&lt;a title=&quot;WordPress Theme Bundle&quot; href=&quot;https://mintplugins.com&quot;&gt;&lt;strong&gt;&copy; Growing Church 2015&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 ',
               'attachment' => false,
             ),
@@ -519,7 +526,7 @@ else{
             ),
             'sociallink_icon' => 
             array (
-              'value' => 'mp-stacks-sociallinks-c-facebook',
+              'value' => 'mp-stacks-sociallinks-twitter',
               'attachment' => false,
             ),
             'sociallink_icon_color' => 

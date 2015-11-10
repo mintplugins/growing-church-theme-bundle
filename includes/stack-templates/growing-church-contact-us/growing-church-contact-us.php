@@ -16,7 +16,7 @@
  /**
  * If required add-ons aren't active, stop and install it now
  */
-if (!function_exists('mp_stacks_eventgrid_textdomain') || !function_exists('mp_stacks_forms_textdomain') || !function_exists('mp_stacks_googlefonts_textdomain') || !function_exists('mp_stacks_googlemaps_textdomain') || !function_exists('mp_stacks_icons_textdomain') || !function_exists('mp_stacks_image_style_textdomain') || !function_exists('mp_stacks_linkgrid_textdomain') || !function_exists('mp_stacks_parallax_textdomain') || !function_exists('mp_stacks_sermongrid_textdomain') || !function_exists('mp_stacks_socialgrid_textdomain') || !function_exists('mp_stacks_sociallinks_textdomain') || !function_exists('mp_stacks_widgets_textdomain')){
+if (!function_exists('mp_stacks_eventgrid_textdomain') || !function_exists('mp_stacks_forms_textdomain') || !function_exists('mp_stacks_googlefonts_textdomain') || !function_exists('mp_stacks_googlemaps_textdomain') || !function_exists('mp_stacks_icons_textdomain') || !function_exists('mp_stacks_image_style_textdomain') || !function_exists('mp_stacks_linkgrid_textdomain') || !function_exists('mp_stacks_mailchimp_textdomain') || !function_exists('mp_stacks_parallax_textdomain') || !function_exists('mp_stacks_sermongrid_textdomain') || !function_exists('mp_stacks_socialgrid_textdomain') || !function_exists('mp_stacks_sociallinks_textdomain') || !function_exists('mp_stacks_widgets_textdomain')){
 					
 	/**
 	 * Check if mp_stacks_eventgrid is installed
@@ -64,6 +64,13 @@ if (!function_exists('mp_stacks_eventgrid_textdomain') || !function_exists('mp_s
 	 * Check if mp_stacks_linkgrid is installed
 	 */
 	require( plugin_dir_path(__FILE__) . 'required-add-ons/mp-stacks-linkgrid-check.php' ); 
+		
+	
+					
+	/**
+	 * Check if mp_stacks_mailchimp is installed
+	 */
+	require( plugin_dir_path(__FILE__) . 'required-add-ons/mp-stacks-mailchimp-check.php' ); 
 		
 	
 					
@@ -143,7 +150,7 @@ else{
 	 */
 	function mp_stacks_templates_growing_church_contact_us_to_default_stacks( $default_stacks_to_create ){ 
 				
-		$default_stacks_to_create['page']['growing_church_contact_us'] = array( 'title' => 'Contact Us','page_template' => 'default', );
+		$default_stacks_to_create['page']['growing_church_contact_us'] = array( 'title' => 'Contact Us','page_template' => 'default','add_to_primary_menu' => 'true', );
 		
 		return $default_stacks_to_create;
 	
@@ -170,7 +177,7 @@ else{
       'mp_stack_order' => 1000,
       '_edit_lock' => 
       array (
-        'value' => '1446167277:3',
+        'value' => '1447181302:3',
       ),
       '_edit_last' => 
       array (
@@ -2666,11 +2673,11 @@ else{
       ),
       'mp_stacks_forms_recaptcha_site_key' => 
       array (
-        'value' => '',
+        'value' => '6LdevQMTAAAAAKkrxtaTnjiyayicTExN0QGqY5l7',
       ),
       'mp_stacks_forms_recaptcha_secret_key' => 
       array (
-        'value' => '',
+        'value' => '6LdevQMTAAAAAAKlGSEpg9ePXLm_2jnMZOgbWegv',
       ),
     ),
   ),

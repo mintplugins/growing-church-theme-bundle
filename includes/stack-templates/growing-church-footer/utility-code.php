@@ -7,6 +7,7 @@ Copy and paste the following code into the if statement in the master stack-pack
 	'mp_stacks_icons_textdomain' => 'mp-stacks-icons-check.php',
 	'mp_stacks_image_style_textdomain' => 'mp-stacks-image-style-check.php',
 	'mp_stacks_linkgrid_textdomain' => 'mp-stacks-linkgrid-check.php',
+	'mp_stacks_mailchimp_textdomain' => 'mp-stacks-mailchimp-check.php',
 	'mp_stacks_parallax_textdomain' => 'mp-stacks-parallax-check.php',
 	'mp_stacks_sermongrid_textdomain' => 'mp-stacks-sermongrid-check.php',
 	'mp_stacks_socialgrid_textdomain' => 'mp-stacks-socialgrid-check.php',

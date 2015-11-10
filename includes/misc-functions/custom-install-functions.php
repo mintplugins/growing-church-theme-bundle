@@ -63,7 +63,7 @@ function growing_church_theme_bundle_theme_mods(){
 		
 		'mp_menu_text_color' => '#2d2d2d',
 		
-		'mp_knapstack_page_header_bg_color' => '#3a3a3a',
+		'mp_knapstack_page_header_bg_color' => '#222222',
 		
 	);
 	
