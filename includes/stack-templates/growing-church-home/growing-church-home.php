@@ -3755,11 +3755,11 @@ else{
       ),
       'mailchimp_api_key' => 
       array (
-        'value' => 'fd20969c19f1edfe70bbb976968cb141-us9',
+        'value' => '',
       ),
       'mailchimp_list_id' => 
       array (
-        'value' => 'aeecc80ce5',
+        'value' => '',
       ),
       'mp_stacks_parallax_bg_height_percent' => 
       array (

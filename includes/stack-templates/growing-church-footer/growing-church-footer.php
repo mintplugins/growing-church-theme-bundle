@@ -193,7 +193,7 @@ else{
       ),
       'mp_stacks_googlemaps_api_key' => 
       array (
-        'value' => 'AIzaSyCdjD_XPQiVq91Ch8znD6fX6wemoU1OEXM',
+        'value' => '',
       ),
       'mp_stacks_googlemaps_show_directions' => 
       array (

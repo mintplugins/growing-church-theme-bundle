@@ -2673,11 +2673,11 @@ else{
       ),
       'mp_stacks_forms_recaptcha_site_key' => 
       array (
-        'value' => '6LdevQMTAAAAAKkrxtaTnjiyayicTExN0QGqY5l7',
+        'value' => '',
       ),
       'mp_stacks_forms_recaptcha_secret_key' => 
       array (
-        'value' => '6LdevQMTAAAAAAKlGSEpg9ePXLm_2jnMZOgbWegv',
+        'value' => '',
       ),
     ),
   ),
