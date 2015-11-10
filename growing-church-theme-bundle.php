@@ -3,7 +3,7 @@
 Plugin Name: Growing Church Theme Bundle
 Plugin URI: https://mintplugins.com
 Description: A bundle of Stack Templates, Plugins, a Theme, and everything needed for the Growing Church Theme Experience.
-Version: 1.0.0.0
+Version: 1.0.0.1
 Author: Mint Plugins
 Author URI: http://mintplugins.com
 Text Domain: growing_church_theme_bundle
@@ -34,7 +34,7 @@ License: GPL2
 */
 // Plugin version
 if( !defined( 'GROWING_CHURCH_THEME_BUNDLE_VERSION' ) )
-	define( 'GROWING_CHURCH_THEME_BUNDLE_VERSION', '1.0.0.0' );
+	define( 'GROWING_CHURCH_THEME_BUNDLE_VERSION', '1.0.0.1' );
 
 // Plugin Folder URL
 if( !defined( 'GROWING_CHURCH_THEME_BUNDLE_PLUGIN_URL' ) )
