@@ -4,14 +4,14 @@
  *
  * @since 1.0.0
  *
- * @package    Growing Church Theme Bundle
+ * @package    Church Plant Theme Bundle
  * @subpackage Functions
  *
  * @copyright  Copyright (c) 2015, Mint Plugins
  * @license    http://opensource.org/licenses/gpl-2.0.php GNU Public License
  * @author     Philip Johnston
  */
- 
+
 /**
 * Check to make sure the MP Buttons Plugin is installed.
 *
@@ -22,7 +22,7 @@
 */
 if (!function_exists('mp_buttons_plugin_check')){
 	function mp_buttons_plugin_check( $plugins ) {
-		
+
 		$add_plugins = array(
 			array(
 				'plugin_name' => 'MP Buttons',
@@ -35,7 +35,7 @@ if (!function_exists('mp_buttons_plugin_check')){
 				'plugin_wp_repo' => true,
 			)
 		);
-		
+
 		return array_merge( $plugins, $add_plugins );
 	}
 }

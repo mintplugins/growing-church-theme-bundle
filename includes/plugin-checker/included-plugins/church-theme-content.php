@@ -11,7 +11,7 @@
  * @license    http://opensource.org/licenses/gpl-2.0.php GNU Public License
  * @author     Philip Johnston
  */
- 
+
 /**
 * Check to make sure the Church Theme Content Plugin is installed.
 *
@@ -22,7 +22,7 @@
 */
 if (!function_exists('church_theme_content_plugin_check')){
 	function church_theme_content_plugin_check( $plugins ) {
-		
+
 		$add_plugins = array(
 			array(
 				'plugin_name' => 'Church Theme Content',
@@ -35,7 +35,7 @@ if (!function_exists('church_theme_content_plugin_check')){
 				'plugin_wp_repo' => true,
 			)
 		);
-		
+
 		return array_merge( $plugins, $add_plugins );
 	}
 }

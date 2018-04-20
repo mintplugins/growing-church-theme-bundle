@@ -11,7 +11,7 @@
  * @license    http://opensource.org/licenses/gpl-2.0.php GNU Public License
  * @author     Philip Johnston
  */
- 
+
 /**
 * Check to make sure the MP Events Plugin is installed (if other supported events plugins don't exist as well.
 *
@@ -22,7 +22,7 @@
 */
 if (!function_exists('mp_events_plugin_check') ){
 	function mp_events_plugin_check( $plugins ) {
-		
+
 		$add_plugins = array(
 			array(
 				'plugin_name' => 'MP Events',
@@ -35,7 +35,7 @@ if (!function_exists('mp_events_plugin_check') ){
 				'plugin_wp_repo' => true,
 			)
 		);
-		
+
 		return array_merge( $plugins, $add_plugins );
 	}
 }

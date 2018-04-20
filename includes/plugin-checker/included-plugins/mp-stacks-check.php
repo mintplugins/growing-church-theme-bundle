@@ -11,7 +11,7 @@
  * @license    http://opensource.org/licenses/gpl-2.0.php GNU Public License
  * @author     Philip Johnston
  */
- 
+
 /**
 * Check to make sure the MP Stacks Plugin is installed.
 *
@@ -22,11 +22,11 @@
 */
 if (!function_exists('mp_stacks_plugin_check')){
 	function mp_stacks_plugin_check( $plugins ) {
-		
+
 		$add_plugins = array(
 			array(
 				'plugin_name' => 'MP Stacks',
-				'plugin_message' => __('You require the MP Stacks plugin. Install it here.', 'mp_stacks_sample_stack_pack'),
+				'plugin_message' => __('You require the MP Stacks plugin. Install it here.', 'growing_church_theme_bundle'),
 				'plugin_filename' => 'mp-stacks.php',
 				'plugin_download_link' => 'http://mintplugins.com/repo/mp-stacks/?downloadfile=true',
 				'plugin_info_link' => 'http://mintplugins.com/plugins/mp-stacks',
@@ -34,7 +34,7 @@ if (!function_exists('mp_stacks_plugin_check')){
 				'plugin_required' => true,
 			)
 		);
-		
+
 		return array_merge( $plugins, $add_plugins );
 	}
 }

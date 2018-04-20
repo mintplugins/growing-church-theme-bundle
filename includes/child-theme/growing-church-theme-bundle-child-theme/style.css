@@ -1,0 +1,11 @@
+/*
+Theme Name:     Growing Church Theme Bundle (Child Theme)
+Theme URI:      https://mintplugins.com/growing-church-theme-bundle-child-theme
+Description:    Child Theme for the Growing Church Theme Bundle using the Knapstack Theme as the theme parent.
+Author:         Mint Plugins
+Author URI:     https://mintplugins.com
+Template:       knapstack
+Version:        1.0.0
+*/
+
+@import url("../knapstack/style.css");

@@ -1,0 +1,118 @@
+{
+    "version": "1.0.0.2",
+    "fancy_name": "Growing Church Theme Bundle",
+    "slug": "growing_church_theme_bundle",
+    "cap_slug": "GROWING_CHURCH_THEME_BUNDLE",
+    "dashed_slug": "growing-church-theme-bundle",
+    "plugin_filename": "growing-church-theme-bundle.php",
+    "child_theme_fancy_name": "Growing Church Theme Bundle (Child Theme)",
+    "child_theme_directory_name": "growing-church-theme-bundle-child-theme",
+    "plugin_api_url": "https:\/\/mintplugins.com\/",
+    "licensed": true,
+    "dependencies": {
+        "mp_menu_textdomain": "mp-menu-check.php",
+        "mp_stacks_textdomain": "mp-stacks-check.php",
+        "mp_easy_icons_textdomain": "mp-easy-icons-check.php",
+        "mp_customizer_backups_textdomain": "mp-customizer-backups-check.php",
+        "Church_Theme_Content": "church-theme-content.php",
+        "mp_buttons_textdomain": "mp-buttons-check.php",
+        "mp_core_textdomain": "mp-core-check.php",
+        "mp_events_textdomain": "mp-events-check.php",
+        "mp_knapstack_textdomain": "mp-knapstack-check.php",
+        "growing_church_theme_bundle_child_theme_exists": "growing-church-theme-bundle-child-theme.php",
+        "mp_stacks_eventgrid_textdomain": "mp-stacks-eventgrid-check.php",
+        "mp_stacks_forms_textdomain": "mp-stacks-forms-check.php",
+        "mp_stacks_googlefonts_textdomain": "mp-stacks-googlefonts-check.php",
+        "mp_stacks_googlemaps_textdomain": "mp-stacks-googlemaps-check.php",
+        "mp_stacks_icons_textdomain": "mp-stacks-icons-check.php",
+        "mp_stacks_image_style_textdomain": "mp-stacks-image-style-check.php",
+        "mp_stacks_linkgrid_textdomain": "mp-stacks-linkgrid-check.php",
+        "mp_stacks_mailchimp_textdomain": "mp-stacks-mailchimp-check.php",
+        "mp_stacks_parallax_textdomain": "mp-stacks-parallax-check.php",
+        "mp_stacks_sermongrid_textdomain": "mp-stacks-sermongrid-check.php",
+        "mp_stacks_socialgrid_textdomain": "mp-stacks-socialgrid-check.php",
+        "mp_stacks_sociallinks_textdomain": "mp-stacks-sociallinks-check.php",
+        "mp_stacks_widgets_textdomain": "mp-stacks-widgets-check.php"
+    },
+    "stack_templates": {
+        "page": {
+            "growing_church_theme_bundle_growing_church_home": {
+                "title": "Home",
+                "file_name": "growing-church-theme-bundle-growing-church-home\/growing-church-theme-bundle-growing-church-home.php",
+                "add_to_primary_menu": true,
+                "is_home": true,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "growing_church_theme_bundle_growing_church_contact_us": {
+                "title": "Contact Us",
+                "file_name": "growing-church-theme-bundle-growing-church-contact-us\/growing-church-theme-bundle-growing-church-contact-us.php",
+                "add_to_primary_menu": true,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "growing_church_theme_bundle_growing_church_events": {
+                "title": "Events",
+                "file_name": "growing-church-theme-bundle-growing-church-events\/growing-church-theme-bundle-growing-church-events.php",
+                "add_to_primary_menu": true,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "growing_church_theme_bundle_growing_church_sermons": {
+                "title": "Sermons",
+                "file_name": "growing-church-theme-bundle-growing-church-sermons\/growing-church-theme-bundle-growing-church-sermons.php",
+                "add_to_primary_menu": true,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "growing_church_theme_bundle_growing_church_staff": {
+                "title": "Staff",
+                "file_name": "growing-church-theme-bundle-growing-church-staff\/growing-church-theme-bundle-growing-church-staff.php",
+                "add_to_primary_menu": true,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "growing_church_theme_bundle_growing_church_who_we_are": {
+                "title": "Who We Are",
+                "file_name": "growing-church-theme-bundle-growing-church-who-we-are\/growing-church-theme-bundle-growing-church-who-we-are.php",
+                "add_to_primary_menu": true,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            }
+        },
+        "none": {
+            "growing_church_theme_bundle_growing_church_footer": {
+                "title": "Footer",
+                "file_name": "growing-church-theme-bundle-growing-church-footer\/growing-church-theme-bundle-growing-church-footer.php",
+                "add_to_primary_menu": false,
+                "is_home": false,
+                "is_footer": true
+            }
+        }
+    },
+    "theme_mods": {
+        "0": false,
+        "mp_core_logo": "http:\/\/demo.mintplugins.com\/growing-church-theme-bundle\/wp-content\/uploads\/sites\/10\/2015\/11\/church-logo-here.png",
+        "mp_core_logo_width": "100",
+        "mp_knapstack_font_family": "Open Sans:Light,300 ",
+        "mp_knapstack_text_color": "#2b4243",
+        "mp_knapstack_subtext_color": "#3d5b5d",
+        "mp_knapstack_button_submit": "#2ba8e2",
+        "mp_knapstack_button_hover": "#009be2",
+        "mp_stacks_footer_stack": "5",
+        "nav_menu_locations": {
+            "primary": 6
+        },
+        "mp_menu_toggle_color": "#ffffff",
+        "mp_menu_open_from": "mp-menu-right.css",
+        "mp_menu_bg_color": "#ffffff",
+        "mp_menu_text_color": "#2d2d2d",
+        "mp_knapstack_page_header_bg_color": "#3a3a3a",
+        "custom_css_post_id": -1
+    }
+}

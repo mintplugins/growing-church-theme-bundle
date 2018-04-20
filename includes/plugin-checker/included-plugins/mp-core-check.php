@@ -11,7 +11,7 @@
  * @license    http://opensource.org/licenses/gpl-2.0.php GNU Public License
  * @author     Philip Johnston
  */
- 
+
 /**
 * Check to make sure the MP Core Plugin is installed.
 *
@@ -22,11 +22,11 @@
 */
 if (!function_exists('mp_core_plugin_check')){
 	function mp_core_plugin_check( $plugins ) {
-		
+
 		$add_plugins = array(
 			array(
 				'plugin_name' => 'MP Core',
-				'plugin_message' => __('You require the MP Core plugin. Install it here.', 'mp_stacks_sample_stack_pack'), 
+				'plugin_message' => __('You require the MP Core plugin. Install it here.', 'growing_church_theme_bundle'),
 				'plugin_filename' => 'mp-core.php',
 				'plugin_download_link' => 'http://mintplugins.com/repo/mp-core/?downloadfile=true',
 				'plugin_info_link' => 'http://mintplugins.com/plugins/mp-core',
@@ -34,7 +34,7 @@ if (!function_exists('mp_core_plugin_check')){
 				'plugin_required' => true,
 			)
 		);
-		
+
 		return array_merge( $plugins, $add_plugins );
 	}
 }
