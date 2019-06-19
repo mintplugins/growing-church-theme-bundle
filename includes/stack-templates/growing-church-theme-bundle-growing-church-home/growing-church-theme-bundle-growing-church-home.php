@@ -2380,11 +2380,11 @@
       'mp_stack_order' => 1020,
       '_edit_lock' => 
       array (
-        'value' => '1478644978:3',
+        'value' => '1559737316:1',
       ),
       '_edit_last' => 
       array (
-        'value' => '3',
+        'value' => '1',
       ),
       'brick_first_content_type' => 
       array (
@@ -2684,6 +2684,50 @@
       'brick_min_above_below' => 
       array (
         'value' => '80',
+      ),
+      'brick_min_below' => 
+      array (
+        'value' => '',
+      ),
+      'brick_min_above_c1' => 
+      array (
+        'value' => '',
+      ),
+      'brick_min_below_c1' => 
+      array (
+        'value' => '',
+      ),
+      'brick_min_above_c2' => 
+      array (
+        'value' => '',
+      ),
+      'brick_min_below_c2' => 
+      array (
+        'value' => '',
+      ),
+      'brick_max_width_c1' => 
+      array (
+        'value' => '',
+      ),
+      'brick_float_c1' => 
+      array (
+        'value' => '',
+      ),
+      'brick_max_width_c2' => 
+      array (
+        'value' => '',
+      ),
+      'brick_float_c2' => 
+      array (
+        'value' => '',
+      ),
+      'brick_class_name' => 
+      array (
+        'value' => '',
+      ),
+      'brick_video_max_width' => 
+      array (
+        'value' => '',
       ),
     ),
     'brick_4' => 

@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0.2",
+    "version": "2.0.0.0",
     "fancy_name": "Growing Church Theme Bundle",
     "slug": "growing_church_theme_bundle",
     "cap_slug": "GROWING_CHURCH_THEME_BUNDLE",
@@ -10,15 +10,15 @@
     "plugin_api_url": "https:\/\/mintplugins.com\/",
     "licensed": true,
     "dependencies": {
-        "mp_menu_textdomain": "mp-menu-check.php",
-        "mp_stacks_textdomain": "mp-stacks-check.php",
-        "mp_easy_icons_textdomain": "mp-easy-icons-check.php",
-        "mp_customizer_backups_textdomain": "mp-customizer-backups-check.php",
         "Church_Theme_Content": "church-theme-content.php",
         "mp_buttons_textdomain": "mp-buttons-check.php",
-        "mp_core_textdomain": "mp-core-check.php",
         "mp_events_textdomain": "mp-events-check.php",
+        "mp_menu_textdomain": "mp-menu-check.php",
         "mp_knapstack_textdomain": "mp-knapstack-check.php",
+        "mp_easy_icons_textdomain": "mp-easy-icons-check.php",
+        "mp_customizer_backups_textdomain": "mp-customizer-backups-check.php",
+        "mp_core_textdomain": "mp-core-check.php",
+        "mp_stacks_textdomain": "mp-stacks-check.php",
         "growing_church_theme_bundle_child_theme_exists": "growing-church-theme-bundle-child-theme.php",
         "mp_stacks_eventgrid_textdomain": "mp-stacks-eventgrid-check.php",
         "mp_stacks_forms_textdomain": "mp-stacks-forms-check.php",
@@ -29,6 +29,7 @@
         "mp_stacks_linkgrid_textdomain": "mp-stacks-linkgrid-check.php",
         "mp_stacks_mailchimp_textdomain": "mp-stacks-mailchimp-check.php",
         "mp_stacks_parallax_textdomain": "mp-stacks-parallax-check.php",
+        "mp_stacks_second_text_textdomain": "mp-stacks-second-text-check.php",
         "mp_stacks_sermongrid_textdomain": "mp-stacks-sermongrid-check.php",
         "mp_stacks_socialgrid_textdomain": "mp-stacks-socialgrid-check.php",
         "mp_stacks_sociallinks_textdomain": "mp-stacks-sociallinks-check.php",
@@ -55,6 +56,14 @@
             "growing_church_theme_bundle_growing_church_events": {
                 "title": "Events",
                 "file_name": "growing-church-theme-bundle-growing-church-events\/growing-church-theme-bundle-growing-church-events.php",
+                "add_to_primary_menu": true,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "growing_church_theme_bundle_giving": {
+                "title": "Giving",
+                "file_name": "growing-church-theme-bundle-giving\/growing-church-theme-bundle-giving.php",
                 "add_to_primary_menu": true,
                 "is_home": false,
                 "is_footer": false,
@@ -95,6 +104,9 @@
             }
         }
     },
+    "niche_misc_functions": [
+        "include-church-tithe-wp.php"
+    ],
     "theme_mods": {
         "0": false,
         "mp_core_logo": "http:\/\/demo.mintplugins.com\/growing-church-theme-bundle\/wp-content\/uploads\/sites\/10\/2015\/11\/church-logo-here.png",

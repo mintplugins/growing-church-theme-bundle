@@ -150,11 +150,11 @@
       'mp_stack_order' => 1010,
       '_edit_lock' => 
       array (
-        'value' => '1466260334:3',
+        'value' => '1559737415:1',
       ),
       '_edit_last' => 
       array (
-        'value' => '3',
+        'value' => '1',
       ),
       'brick_first_content_type' => 
       array (
@@ -207,6 +207,54 @@
       'widgets_links_hover_color' => 
       array (
         'value' => '#ffffff',
+      ),
+      'brick_min_below' => 
+      array (
+        'value' => '',
+      ),
+      'brick_min_above_c1' => 
+      array (
+        'value' => '',
+      ),
+      'brick_min_below_c1' => 
+      array (
+        'value' => '',
+      ),
+      'brick_min_above_c2' => 
+      array (
+        'value' => '',
+      ),
+      'brick_min_below_c2' => 
+      array (
+        'value' => '',
+      ),
+      'brick_max_width_c1' => 
+      array (
+        'value' => '',
+      ),
+      'brick_float_c1' => 
+      array (
+        'value' => '',
+      ),
+      'brick_max_width_c2' => 
+      array (
+        'value' => '',
+      ),
+      'brick_float_c2' => 
+      array (
+        'value' => '',
+      ),
+      'brick_class_name' => 
+      array (
+        'value' => '',
+      ),
+      'brick_bg_image' => 
+      array (
+        'value' => '',
+      ),
+      'brick_display_type' => 
+      array (
+        'value' => '',
       ),
     ),
     'brick_3' => 

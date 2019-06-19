@@ -20,20 +20,20 @@
 * @return   array $plugins An array of plugins to be installed. This is passed in through the mp_core_check_plugins filter.
 * @return   array $plugins An array of plugins to be installed. This is passed to the mp_core_check_plugins filter. (see link).
 */
-if (!function_exists('mp_events_plugin_check') ){
+if ( ! function_exists( 'mp_events_plugin_check' ) ) {
 	function mp_events_plugin_check( $plugins ) {
 
 		$add_plugins = array(
 			array(
-				'plugin_name' => 'MP Events',
-				'plugin_message' => __('You require the MP Events plugin. Install it here.', 'growing_church_theme_bundle'),
-				'plugin_filename' => 'mp-events.php',
+				'plugin_name'          => 'MP Events',
+				'plugin_message'       => __( 'You require the MP Events plugin. Install it here.', 'growing_church_theme_bundle' ),
+				'plugin_filename'      => 'mp-events.php',
 				'plugin_download_link' => 'http://mintplugins.com/repo/mp-events/?downloadfile=true',
-				'plugin_info_link' => 'http://mintplugins.com/plugins/mp-events',
+				'plugin_info_link'     => 'http://mintplugins.com/plugins/mp-events',
 				'plugin_group_install' => true,
-				'plugin_required' => true,
-				'plugin_wp_repo' => true,
-			)
+				'plugin_required'      => true,
+				'plugin_wp_repo'       => true,
+			),
 		);
 
 		return array_merge( $plugins, $add_plugins );
