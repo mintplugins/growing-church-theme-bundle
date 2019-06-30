@@ -219,7 +219,7 @@ if ( ! function_exists( 'churchtithewp_theme_bundle_dashboard_widget' ) ) {
 
 		wp_add_dashboard_widget(
 			'churchtithewp_dashboard_widget', // Widget slug.
-			__( 'Mint Themes News: Accept online donations using ChurchTitheWP', 'theme_bundle_template' ), // Title.
+			__( 'Mint Themes News: Accept online donations using Church Tithe WP', 'theme_bundle_template' ), // Title.
 			'churchtithewp_dashboard_widget_output' // Display function.
 		);
 
@@ -233,7 +233,7 @@ if ( ! function_exists( 'churchtithewp_dashboard_widget_output' ) ) {
 		$nonce = wp_nonce_url( self_admin_url( 'update.php?churchtithewp_install_for_theme_bundle' ) );
 
 		// Display whatever it is you want to show.
-		echo wp_kses_post( '<p>' . sprintf( __( 'If you would like to accept tithes on your Church website, check out our new (and free) ChurchTitheWP plugin, powered by Stripe. %1$s or %2$s.', 'theme_bundle_template' ), '<a href="https://churchtithewp.com">' . __( 'Learn more', 'theme_bundle_template' ) . '</a>', '<a href="' . $nonce . '">' . __( 'Install now', 'theme_bundle_template' ) . '</a>' ) . '</p>' );
+		echo wp_kses_post( '<p>' . sprintf( __( 'If you would like to accept tithes on your Church website, check out our new Church Tithe WP plugin, powered by Stripe. It\'s free to install and use and makes it easy for people to give on your site using credit cards, Apple Pay, on a recurring basis, and more! %1$s or %2$s.', 'theme_bundle_template' ), '<a href="https://churchtithewp.com">' . __( 'Learn more', 'theme_bundle_template' ) . '</a>', '<a href="' . $nonce . '">' . __( 'Install now', 'theme_bundle_template' ) . '</a>' ) . '</p>' );
 		echo wp_kses_post( '<p>' . sprintf( __( 'Alternatively, if you already have a tithing solution, or simply aren\'t interested, you can %s.', 'theme_bundle_template' ), '<a href="' . wp_nonce_url( admin_url( '?ctwp_dashboard_dismiss' ), 'ctwp_dashboard_dismiss_notice', 'ctwp_dashboard_dismiss_notice_nonce' ) . '">' . __( 'dismiss this notice', 'theme_bundle_template' ) . '</a>' ) . '</p>' );
 	}
 }

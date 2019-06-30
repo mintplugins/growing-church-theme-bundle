@@ -3,7 +3,7 @@
 Plugin Name: Growing Church Theme Bundle
 Plugin URI: https://mintplugins.com
 Description: A bundle of Stack Templates, Plugins, a Theme, and everything needed for the Growing Church Theme Experience.
-Version: 2.0.0.0
+Version: 2.0.0.1
 Author: Mint Plugins
 Author URI: https://mintplugins.com
 Text Domain: growing_church_theme_bundle
@@ -70,11 +70,6 @@ class GrowingChurchThemeBundle {
 		| CONSTANTS
 		|--------------------------------------------------------------------------
 		*/
-
-		// Theme Bundle Array.
-		if ( ! defined( $this->_theme_bundle_info['cap_slug'] . '_INFO' ) ) {
-			define( $this->_theme_bundle_info['cap_slug'] . '_INFO', $this->_theme_bundle_info );
-		}
 
 		// Plugin version.
 		if ( ! defined( $this->_theme_bundle_info['cap_slug'] . '_VERSION' ) ) {

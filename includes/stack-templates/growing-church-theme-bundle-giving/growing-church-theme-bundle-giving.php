@@ -976,7 +976,7 @@
       'mp_stack_order' => 1010,
       '_edit_lock' => 
       array (
-        'value' => '1559736989:1',
+        'value' => '1561470063:1',
       ),
       '_edit_last' => 
       array (
@@ -1751,7 +1751,7 @@
             ),
             'brick_text' => 
             array (
-              'value' => '&lt;p&gt;The amount you choose to give here goes directly to our ministries in our local community. Should you choose to give on a recurring basis automatically, you can log in and cancel at any time right here by clicking &quot;Manage your payments&quot;. Receipts are provided after each purchase both here and in your email. This online giving form is fully secure, and you can use any credit card, Apple Pay, or Google Pay. If you have any questions at any time, please contact us.&lt;/p&gt;
+              'value' => '&lt;p&gt;The amount you choose to give here goes directly to our ministries in our local community. If you choose to give on a recurring basis automatically, you can log in and cancel at any time right here by clicking &quot;Manage your payments&quot;. Receipts are provided after each purchase both here and in your email. This online giving form is fully secure, and you can use any credit card, Apple Pay, or Google Pay. If you have any questions at any time, please contact us.&lt;/p&gt;
 ',
               'attachment' => false,
             ),
